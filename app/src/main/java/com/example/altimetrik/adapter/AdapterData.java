@@ -1,4 +1,4 @@
-package com.example.altimetrik;
+package com.example.altimetrik.adapter;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -16,6 +16,8 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.RequestOptions;
+import com.example.altimetrik.R;
+import com.example.altimetrik.model.Results;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -13,6 +13,9 @@ import android.view.MenuItem;
 import android.view.inputmethod.EditorInfo;
 import android.widget.SearchView;
 
+import com.example.altimetrik.adapter.AdapterData;
+import com.example.altimetrik.model.Results;
+
 import org.json.JSONArray;
 import org.json.JSONObject;
 

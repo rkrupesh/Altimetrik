@@ -1,4 +1,4 @@
-package com.example.altimetrik;
+package com.example.altimetrik.model;
 
 
 public class Results {
