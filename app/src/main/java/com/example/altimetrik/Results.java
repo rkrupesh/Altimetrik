@@ -78,6 +78,17 @@ public class Results {
 
     private String collectionCensoredName;
 
+    private boolean isSelected = false;
+
+    public boolean isSelected() {
+        return isSelected;
+    }
+
+    public void setSelected(boolean selected) {
+        isSelected = selected;
+    }
+
+
     public String getArtworkUrl100() {
         return artworkUrl100;
     }
