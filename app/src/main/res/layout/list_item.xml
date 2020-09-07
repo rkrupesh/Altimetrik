@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="@dimen/activity_margin"
+    android:elevation="@dimen/cardview_elevation">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/image_view"
+            android:layout_width="@dimen/image_dimention"
+            android:layout_height="@dimen/image_dimention"
+            android:layout_margin="@dimen/cardview_default_elevation"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/artist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/image_view"
+            android:text=" Artist Name:   "
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/artist_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/artist"
+            android:text="demo" />
+
+        <TextView
+            android:id="@+id/track"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/artist_name"
+            android:layout_toRightOf="@id/image_view"
+            android:text=" Track Name:   "
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/track_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/artist_name"
+            android:layout_toRightOf="@id/track"
+            android:text="Track Name :   " />
+
+        <TextView
+            android:id="@+id/release"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/track_name"
+            android:layout_toRightOf="@id/image_view"
+            android:text=" Release Date:   "
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/release_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/track_name"
+            android:layout_toRightOf="@id/release"
+            android:text="demo" />
+
+        <TextView
+            android:id="@+id/collection_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/release"
+            android:layout_toRightOf="@id/image_view"
+            android:text=" Collection Price:   "
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/collection_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/release"
+            android:layout_toRightOf="@id/collection_price" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
