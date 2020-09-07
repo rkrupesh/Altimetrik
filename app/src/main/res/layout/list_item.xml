@@ -25,7 +25,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_toRightOf="@id/image_view"
-            android:text=" Artist Name:   "
+            android:text="@string/artist_name"
             android:textStyle="bold" />
 
         <TextView
@@ -41,7 +41,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/artist_name"
             android:layout_toRightOf="@id/image_view"
-            android:text=" Track Name:   "
+            android:text="@string/track_name"
             android:textStyle="bold" />
 
         <TextView
@@ -58,7 +58,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/track_name"
             android:layout_toRightOf="@id/image_view"
-            android:text=" Release Date:   "
+            android:text="@string/release_date"
             android:textStyle="bold" />
 
         <TextView
@@ -75,7 +75,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/release"
             android:layout_toRightOf="@id/image_view"
-            android:text=" Collection Price:   "
+            android:text="@string/collection_price"
             android:textStyle="bold" />
 
         <TextView
